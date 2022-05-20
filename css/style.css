@@ -1,0 +1,66 @@
+html, body, .conteudo{
+    height: 100%;
+}
+
+body{
+    background: #d6d5d5;
+}
+
+
+
+/* conteudo 1/home */
+#conteudo1{
+    background: url(../img/fundo2.jpg) no-repeat;
+}
+
+#conteudo1 .fas{
+    color: black;
+}
+
+
+
+/* conteudo 2/quem somos */
+#conteudo3{
+    background: url(../img/fundo2.jpg) no-repeat;
+}
+
+#conteudo2 .carousel .img-fluid{
+    border-radius: 5px;
+}
+
+#conteudo2 .carousel .fas{
+    color: black;
+}
+
+
+
+
+/* conteudo 3/contato */
+.form{
+    margin: 0 300px;
+    padding: 40px 10px 20px 10px;
+    border-radius: 5px;
+    height: 300px;
+    background-color: #bebebe;
+}
+
+
+
+/* footer/rodapé */
+footer h4{
+    color: #bebebe;
+    margin-bottom: 15px;
+}
+
+footer .fas{
+    color: white;
+}
+
+footer a{
+    color: whitesmoke;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+   
