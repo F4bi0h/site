@@ -9,26 +9,23 @@ body{
 
 
 /* conteudo 1/home */
-#conteudo1{
+#conteudo-home{
     background: url(../img/fundo2.jpg) no-repeat;
+    background-size: cover;
 }
 
-#conteudo1 .fas{
+#conteudo-home .fas{
     color: black;
 }
 
 
 
 /* conteudo 2/quem somos */
-#conteudo3{
-    background: url(../img/fundo2.jpg) no-repeat;
-}
-
-#conteudo2 .carousel .img-fluid{
+#conteudo-quemSomos .carousel .img-fluid{
     border-radius: 5px;
 }
 
-#conteudo2 .carousel .fas{
+#conteudoquemSomos .carousel .fas{
     color: black;
 }
 
@@ -36,8 +33,12 @@ body{
 
 
 /* conteudo 3/contato */
+#conteudo-form{
+    background: url(../img/fundo2.jpg) no-repeat;
+    background-size: cover;
+}
+
 .form{
-    margin: 0 300px;
     padding: 40px 10px 20px 10px;
     border-radius: 5px;
     height: 300px;
