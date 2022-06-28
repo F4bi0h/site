@@ -15,7 +15,15 @@ body{
 }
 
 #conteudo-home .fas{
-    color: black;
+    color: rgb(39, 38, 38);
+}
+
+.carousel-indicators li{
+    background: black;
+}
+
+.carousel-indicators .active{
+    background: black;
 }
 
 
@@ -26,7 +34,7 @@ body{
 }
 
 #conteudoquemSomos .carousel .fas{
-    color: black;
+    color: rgb(39, 38, 38);
 }
 
 
@@ -54,11 +62,11 @@ footer h4{
 }
 
 footer .fas{
-    color: white;
+    color: rgb(242, 237, 237);
 }
 
 footer a{
-    color: whitesmoke;
+    color: rgb(242, 237, 237);
 }
 
 footer a:hover{

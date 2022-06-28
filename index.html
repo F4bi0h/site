@@ -58,25 +58,30 @@
     </header><!-- header -->
 
 
-    <section id="conteudo-home" class="d-flex conteudo"><!-- conteudo 1 -->
+    <section id="conteudo-home" class="d-flex conteudo"><!-- conteudo-home -->
         <div class="container justify-content-center align-self-center"><!-- container -->
             <div class="row">
                 <div class="col-md-12">
 
                     <div id="carousel-home" class="carousel slide text-center" data-ride="carousel"><!-- carousel -->
 
+                        <ol class="carousel-indicators mt-5">
+                            <li class="active" data-target="#carousel-home" data-slide-to="0"></li>
+                            <li data-target="#carousel-home" data-slide-to="1"></li>
+                        </ol>
+
                         <div class="carousel-inner"><!-- inner -->
 
                             <div class="carousel-item active">
                                 <h1 class="display-4">Bem-vindo ao site</h1>
                                 <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nam molestiae.</p>
-                                <a href="#" class="btn btn-lg btn-danger mt-2">Veja mais</a>
+                                <a href="#" class="btn btn-lg btn-danger mt-2 mb-5">Veja mais</a>
                             </div>
 
                             <div class="carousel-item">
                                 <h1 class="display-4">Conheça nosso trabalho</h1>
                                 <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo non officia modi.</p>
-                                <a href="#" class="btn btn-lg btn-danger mt-2">Veja mais</a>
+                                <a href="#" class="btn btn-lg btn-danger mt-2 mb-5">Veja mais</a>
                             </div>
 
                         </div><!-- inner -->
@@ -94,14 +99,14 @@
                 </div>
             </div>
         </div><!-- container -->
-    </section><!-- conteudo 1 -->
+    </section><!-- conteudo-home -->
 
 
 
-    <section id="conteudo-quemSomos" class="d-flex conteudo"><!-- conteudo 2 -->
+    <section id="conteudo-quemSomos" class="d-flex conteudo"><!-- conteudo-quemSomos -->
         <div class="container align-self-center justify-content-center"><!-- container -->
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-lg-5">
 
                     <h2 class="display-4 mt-2"><span class="text-danger">Quem</span> somos</h2>
 
@@ -115,7 +120,13 @@
 
                 <div class="col-md-7">
                         
-                    <div class="carousel slide mt-5 d-none d-md-block" id="carousel-quemSomos" data-ride="slide"><!-- carousel -->
+                    <div class="carousel slide mt-5 d-none d-lg-block" id="carousel-quemSomos" data-ride="slide"><!-- carousel -->
+
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#carousel-quemSomos" data-slide-to="0"></li>
+                            <li data-target="#carousel-quemSomos" data-slide-to="1"></li>
+                        </ol>
+
                         <div class="carousel-inner"><!-- inner -->
                             <div class="carousel-item active">
                                 <img src="img/imagem1.jpeg" alt="" class="img-fluid">
@@ -144,11 +155,11 @@
 
             </div>
         </div><!-- container -->
-    </section><!-- conteudo 2 -->
+    </section><!-- conteudo-quemSomos -->
 
 
 
-    <section id="conteudo-form" class="d-flex conteudo"><!-- conteudo 3 -->
+    <section id="conteudo-form" class="d-flex conteudo"><!-- conteudo-form -->
         <div class="container align-self-center justify-content-center"><!-- container -->
             <div class="row">
                 <div class="col-md-12">
@@ -156,18 +167,18 @@
                     <h3 class=" text-center display-4 mb-3">Entre em contato com a gente</h3>
 
                     <div class="form">
-                        <form action="" class="form-group text-center"><!-- form -->
-                            <input type="text" placeholder="Nome Completo" class="form-control form-control-lg mb-3">
-                            <input type="email" placeholder="Email" class="form-control form-control-lg mb-3">
-                            <textarea name="" id="" class="form-control" placeholder="Escreva o que deseja"></textarea>
-                            <button onclick="" type="submit" class="btn btn-lg btn-danger mt-2">Enviar</button>
+                        <form method="post" action="" class="form-group text-center"><!-- form -->
+                            <input id="dado1" placeholder="Nome Completo" type="text" class="form-control form-control-lg mb-3">
+                            <input id="dado2" placeholder="Email" type="email" class="form-control form-control-lg mb-3">
+                            <textarea placeholder="Escreva o que deseja" name="" id="dado3" class="form-control"></textarea>
+                            <button type="button" class="btn btn-lg btn-danger mt-2" onclick="formDados()">Enviar</button>
                         </form><!-- form -->
                     </div>
 
                 </div>
             </div>
         </div><!-- container -->
-    </section><!-- conteudo 3 -->
+    </section><!-- conteudo-form -->
 
 
 
@@ -211,23 +222,7 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="js/script.js"></script>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
