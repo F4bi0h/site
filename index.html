@@ -46,11 +46,10 @@
                         </li>
                     </ul>
 
-                    <form action="" class="form-inline">
-                        <input type="text" placeholder="Pesquisar" class="form-control">
+                    <form action="" method="get" class="form-inline">
+                        <input name="search" type="text" placeholder="Pesquisar" class="form-control">
                         <button class="btn btn-danger">OK</button>
                     </form>
-
                 </div>
 
             </div><!-- container -->
@@ -125,6 +124,7 @@
                         <ol class="carousel-indicators">
                             <li class="active" data-target="#carousel-quemSomos" data-slide-to="0"></li>
                             <li data-target="#carousel-quemSomos" data-slide-to="1"></li>
+                            <li data-target="#carousel-quemSomos" data-slide-to="2"></li>
                         </ol>
 
                         <div class="carousel-inner"><!-- inner -->
@@ -168,10 +168,10 @@
 
                     <div class="form">
                         <form method="post" action="" class="form-group text-center"><!-- form -->
-                            <input id="dado1" placeholder="Nome Completo" type="text" class="form-control form-control-lg mb-3">
-                            <input id="dado2" placeholder="Email" type="email" class="form-control form-control-lg mb-3">
-                            <textarea placeholder="Escreva o que deseja" name="" id="dado3" class="form-control"></textarea>
-                            <button type="button" class="btn btn-lg btn-danger mt-2" onclick="formDados()">Enviar</button>
+                            <input id="nome" placeholder="Nome Completo" type="text" class="form-control form-control-lg mb-3">
+                            <input id="email" placeholder="Email" type="email" class="form-control form-control-lg mb-3">
+                            <textarea placeholder="Escreva o que deseja" name="" id="desejo" class="form-control"></textarea>
+                            <button type="button" class="btn btn-lg btn-danger mt-2" onclick="verificarInfors()">Enviar</button>
                         </form><!-- form -->
                     </div>
 

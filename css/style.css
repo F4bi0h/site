@@ -7,8 +7,7 @@ body{
 }
 
 
-
-/* conteudo 1/home */
+/* conteudo home */
 #conteudo-home{
     background: url(../img/fundo2.jpg) no-repeat;
     background-size: cover;
@@ -28,7 +27,7 @@ body{
 
 
 
-/* conteudo 2/quem somos */
+/* conteudo quem somos */
 #conteudo-quemSomos .carousel .img-fluid{
     border-radius: 5px;
 }
@@ -40,7 +39,7 @@ body{
 
 
 
-/* conteudo 3/contato */
+/* conteudo contato */
 #conteudo-form{
     background: url(../img/fundo2.jpg) no-repeat;
     background-size: cover;
